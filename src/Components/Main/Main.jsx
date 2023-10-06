@@ -1,33 +1,18 @@
-import './style/App.css';
+import React from 'react'
+import './main.scss'
 
-function App() {
+export default function Main() {
   return (
-    <div className="App">
-      <header>
-        <div class="container flex-wrapper">
-            <div class="logo-wrapper">
-                <a class="logo" href="#">Layout</a>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Technologies</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </nav>
-            
-        </div>
-    </header>
+    <main>
     <div class="layout">
-        <h1 class="container">Layout</h1>
-        <p class="container">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1 class="main-container">Layout</h1>
+        <p class="main-container">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>
-    <div class="remember container">
+    <div class="remember main-container">
         <h2>Lorem</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione corrupti doloribus officia dolores facere mollitia ipsam?</p>
     </div>
-    <div class="tables container">
+    <div class="tables main-container">
         <div class="apple">
             <img src="img/apple.png" width="75px" height ="75px" alt="html"></img>
             <h3>Apple</h3>
@@ -43,20 +28,8 @@ function App() {
             <h3>Bookstrap</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam ratione corrupti doloribus officia dolores facere mollitia ipsam?</p>
         </div>
-
+    
     </div>
-    <footer>
-        <div class="container">
-            <p>© 2023 All right reserved.</p>
-            <div class="social">
-                <img src="img/inst.svg" alt="instagram" class="inst"></img>
-                <img src="img/Vk.svg" alt="Vk" class="vk"></img>
-            </div>
-        </div>
-    </footer>
-
-    </div>
-  );
+    </main>
+  )
 }
-
-export default App;

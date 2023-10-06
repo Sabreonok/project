@@ -1,0 +1,33 @@
+@import '../../style/vars.scss';
+@import '../../style/mixins.scss';
+
+.footer-container {
+    @include containerForAll
+}
+
+
+footer {
+    padding-top: 84px;
+    padding-bottom: 66px;
+    background-color: $thirdColor;
+
+    p {
+        color: $firstColor;
+        font-family: $font;
+        font-size: 11.2px;
+        font-weight: 400;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+  }
+ 
+  
+  .social .inst {
+    margin-right: 22px;
+  }
+  

@@ -1,0 +1,48 @@
+@import '../../style/vars.scss';
+@import '../../style/mixins.scss';
+
+
+.header-container {
+    @include containerForAll
+}
+
+header {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+    li {
+        margin-left: 49px;
+
+        a {
+            font-family: $font;
+            font-weight: 800;
+            font-size: 14.4px;
+            text-decoration: none;
+            color: $thirdColor;
+            display: block;
+        }
+    }
+
+}
+
+
+.logo {
+    font-family: $font;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #0F044C;
+    letter-spacing: 2px;
+}
+
